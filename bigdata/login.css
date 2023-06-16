@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    color: white;
+}
+
+video {
+    position: absolute;
+    left: 100px;
+    width: 1200px;
+    height: 1000px;
+}
+
+form {
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+
+input {
+    height: 20px;
+}
+
+.uname,
+.pwd,
+.a,
+.b,.button,.register
+{
+    position: absolute;
+}
+
+.a {
+    top: 400px;
+    left: 1220px;
+}
+
+.b {
+    top: 450px;
+    left: 1220px;
+}
+
+.uname {
+    top: 400px;
+    left: 1300px;
+    width: 200px;
+    border: 1px solid white;
+}
+
+.pwd {
+    top: 450px;
+    left: 1300px;
+    width: 200px;
+    border: 1px solid white;
+}
+.button{
+    top: 500px;
+    left: 1350px;
+    width: 100px;
+    font-weight: 700;
+}
+em{
+    position: absolute;
+    font-size: 50px;
+top: 250px;
+left: 1200px;
+z-index: 1000;
+}
+.register{
+    top: 550px;
+    left: 1300px;
+    width: 500px;
+    color:white;
+    width: 200px;
+    font-size: 12px;
+}
